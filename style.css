@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree";
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.blog-card {
+  width: 90%;
+  max-width: 384px;
+  height: 522px;
+  background: hsl(0, 0%, 100%);
+  padding: 24px 24px;
+  border-radius: 20px;
+  box-shadow: 0.5rem 0.5rem black;
+  border: solid hsl(0, 0%, 7%) 1px;
+}
+
+.learn-block {
+  background-color: hsl(47, 88%, 63%);
+  width: 82px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+img {
+  border-radius: 15px;
+  max-width: 100%;
+}
+.heading {
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.heading:hover {
+  color: gray;
+}
+.publish-date {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 0.5rem;
+}
+.content {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 1rem;
+  color: hsl(0, 0%, 42%);
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.avatar:hover{
+  color: gray;
+}
+.avatar-image {
+  width: 32px;
+  height: 32px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
